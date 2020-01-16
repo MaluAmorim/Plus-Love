@@ -1,0 +1,457 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.no_padding{
+  padding: 0;
+}
+
+/*INICIO NAVBAR*/
+.topoHome .navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 300;
+  background: #192057;
+}
+.topoHome .navbar .dropdown-menu{
+  background: #192057;
+  color: #fff;
+}
+ .topoHome .navbar ul{
+  width: 100%;
+ }
+ .topoHome .navbar ul li{
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  margin: 0 10px;
+}
+.topoHome .navbar ul li a{
+  color: #fff !important;
+  transition: 0.5s;
+  border-bottom: 2px solid transparent;
+ }
+.topoHome .navbar ul li .imgnav a{
+  border: 0 !important;
+}
+ .topoHome .navbar ul li a:hover{
+    border-bottom: 2px solid #fff;
+ }
+.topoHome .navbar img{
+  width: 100%;
+  height: auto;
+}
+.topoHome ul li a.nav-link img{
+    width: 50%;
+    height: 40px;
+}
+.topoHome .navbar p{
+  color: #ffffff;
+  font-size: 10px;
+  margin: 0;
+}
+.topoHome .navbar button{
+  background: transparent;
+  border: 0;
+  color: #fff;
+}
+.topoHome .navbar button:hover{
+  background: transparent;
+  border: 0;
+  color: rgba(255,255,255,.75);
+}
+/*FIM NAVBAR*/
+
+/*INICIO CHAMADA APP*/
+.jumbotron{
+  margin-bottom: 0;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.jumbotron .chama h1{
+  margin-bottom: 30px;
+  border-bottom: 4px solid #ec3c31;
+}
+.jumbotron .chama button{
+  background: #00000070;
+  color: #fff;
+  border: 2px solid #ec3c31;
+  padding: 10px 40px;
+  margin-top: 20px;
+  box-shadow: 0px 10px 10px #333;
+}
+.jumbotron .chamada_app .google{
+  margin-top: 30px; 
+}
+.jumbotron .chamada_app .google img{
+  width: 50%;
+}
+/*FIM CHAMADA APP*/
+
+/*INICIO GALERIA*/
+#galeria{
+  margin-top: -120px;
+  margin-bottom: 30px;
+  padding: 50px 0;
+  background: #192057;
+  box-shadow: 0px 10px 10px black;
+}
+#galeria .titulo_galeria h4{
+  color: #fff;
+  margin-bottom: 20px;
+}
+/*FIM GALERIA*/
+
+
+
+/*INICIO PESSOAS*/
+.pessoas{
+  padding: 70px 0;
+}
+.pessoas h1{
+  font-size: 40px;
+}
+.pessoas .titulo_ava button{
+  background: transparent;
+  color: #000;
+  border: 0;
+  padding: 10px 40px;
+  margin-bottom: 30px;
+  box-shadow: 0px 10px 10px #333;
+
+}
+.pessoas p{
+  font-size: 16px;
+  border-bottom: 3px solid #ec3c31;
+}
+.pessoas .avaliador img{
+  width: 100%;
+  border-radius: 25px;
+}
+.pessoas .estabelecimento img{
+  width: 100%;
+  border-radius: 25px;
+}
+.pessoas .avaliador .btn-primary, .pessoas .estabelecimento .btn-primary{
+  background: #ec3c31;
+  border: 0;
+  color: #fff;
+  padding: 8px 40px;
+  margin-top: 20px;
+  box-shadow: 0px 10px 10px #333;
+}
+/*FIM PESSOAS*/
+
+/*INICIO PODIO*/
+.podio{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 70px 0;
+}
+.podio h4{
+  color: #fff;
+}
+.podio p{
+  color: #fff;
+}
+.podio .img_p{
+  padding: 30px 20px;
+    background: #ffffff50;
+}
+.podio .img_p img{
+  width: 100%;
+  margin-bottom: 5px;
+  height: 150px;
+}
+.podio .img_p .img_trofeu img{
+  width: 90px;
+  height: 90px;
+}
+.podio .img_1 h4{
+  color: #333;
+}
+.podio .img_1{
+  padding: 60px 20px;
+  background: #ffffff;
+}
+.podio .img_1 img{
+  width: 100%;
+  margin-bottom: 5px;
+  height: 150px;
+}
+.podio .img_1 .img_trofeu img{
+  width: 90px;
+  height: 90px;
+}
+.podio .img_f img{
+  width: 100%;
+  height: 100px;
+}
+.podio .img_f{
+  margin: 30px 0;
+}
+.podio .linha1{
+  border-top: 3px solid #ec3c31;
+}
+.podio .apontar .bola{
+  background: #ec3c31;
+  height: 25px;
+  width: 10px;
+  margin-left: 50%;
+}
+.podio .apontar .bola1{
+  background: #ec3c31;
+  height: 25px;
+  width: 10px;
+  margin-left: 20%;
+  position: absolute;
+}
+.podio .apontar .bola2{
+  background: #ec3c31;
+  height: 25px;
+  width: 10px;
+  margin-left: 70%;
+  position: absolute;
+}
+.podio h2{
+  color: #fff;
+  margin-bottom: 40px;
+}
+/*FIM PODIO*/
+
+/*INICIO QUEM SOMOS*/
+.quem_somos .missoes{
+  padding: 80px 0;
+}
+.quem_somos .titulo_quem h1{
+  font-size: 40px;
+}
+.quem_somos .titulo_quem p{
+  font-size: 16px;
+  border-bottom: 3px solid #ec3c31;
+  margin-bottom: 50px;
+}
+.quem_somos h2{
+  margin: 30px 0;
+  font-size: 30px;
+  border-bottom: 2px solid #ec3c31;
+  width: 20%;
+  transition: 0.6s;
+}
+.quem_somos h2:hover{
+  border-bottom: 2px solid #ec3c31;
+  width: 100%;
+}
+/*FIM QUEM SOMOS*/
+
+/*INICIO PARCEIROS*/
+.parceiros{
+  padding: 70px 0;
+}
+.parceiros .slide-parceiro{
+  background: #000;
+}
+.parceiros img{
+  width: 100%;
+  height: 300px;
+}
+.parceiros h1{
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+/*FIM PARCEIROS*/
+
+/*INICIO RODAPÈ*/
+.rodape{
+  background: #192057;
+  padding: 30px 0;
+}
+.rodape .dropdown-menu{
+  background: #192057;
+  color: #fff;
+}
+.rodape .dropdown-menu button{
+  background: transparent;
+  margin: 0 5px;
+}
+.rodape .menu img {
+  width: 70px;
+  height: 70px;
+}
+.rodape .menu h3{
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.rodape .menu ul{
+  margin-top: -10px;
+  line-height: 1;
+}
+.rodape .menu ul li{
+  margin: 0;
+}
+.rodape .menu ul li a{
+  color: #ffffff;
+  font-size: 16px;
+}
+.rodape .formulario h3{
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.rodape .contatos h3{
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.rodape .contatos h5{
+  color: #ffffff;
+  font-size: 16px;
+}
+.rodape input{
+  margin-top: 15px;
+  background: transparent;
+}
+.rodape textarea{
+  margin: 15px 0;
+  background: transparent;
+  color: #ffffff;
+}
+.rodape .botao_enviar{
+  background: #ec3c31;
+  color: #fff;
+  padding: 8px 40px;
+  border: 0;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.5);
+}
+/*FIM RODAPÈ*/
+
+
+
+/*INICIO PG PERFIL ESTABELECIMENTO*/
+.botao{
+  background: #192057;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+.botao button{
+  width: 100%;
+  background: #fff;
+  color: #000;
+  padding: 5px 0;
+  font-weight: 700;
+  border: 0;
+  margin-bottom: 5px;
+}
+.botao button a{
+  color: #000;
+}
+.TitulE .nome_local{
+  padding: 10px 0;
+  color: #8e8b8b;
+  border: 4px solid #ec3c31;
+  border-radius:  0 0 15px 15px;
+  margin-bottom: 40px;
+}
+.TitulE .perfil{
+  margin: 40px 0;
+}
+
+.galeria img {
+  margin-bottom: 5px;
+  width: 100%;
+}
+.descricao{
+  margin: 50px 0;
+}
+.descricao .desc{
+  background: #efefef;
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px 4px rgba(0.5,0,0,0.5);
+  padding: 40px;
+}
+.descricao .seg{
+  margin-top: 15px;
+  background: #efefef;
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px 4px rgba(0.5,0,0,0.5);
+  padding: 20px;
+
+}
+.localizacao{
+  margin-top: 50px;
+}
+.localizacao iframe{
+  width: 100%;
+  height: 300px;
+  border:0;
+}
+/*FIM PG PERFIL ESTABELECIMENTO*/
+
+
+/*INICIO PG USUARIOS*/
+.tituloU .perfil_u{
+  margin: 40px 0;
+}
+.conta{
+  margin: 30px 0;
+}
+.conta .foto_conta img{
+  width: 100%;
+  height: 250px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+.conta input{
+  width: 100%;
+}
+.conta button{
+  float: right;
+  background: #38458c;
+  color: #fff;
+}
+/*FIM PG USUARIOS*/
+
+/*INICIO PG_VITRINE*/
+.filtro .coluna_filtro{
+  background: #eae9e9;
+  padding: 20px;
+  border-radius: 25px;
+  margin-top: 40px;
+}
+.filtro .coluna_filtro h5{
+  margin-top: 20px;
+}
+.filtro .coluna_filtro h6{
+  margin-top: 20px;
+}
+.filtro .coluna_filtro select{
+  width: 100%;
+}
+.filtro .coluna_filtro input{
+  margin-top: 20px;
+}
+.filtro form.example input{
+  width: 87%;
+  display: inline;
+  margin-bottom: 15px;
+}
+.filtro form.example button{
+  height: 37px;
+  background: #00a1ff;
+  border-color: #00a1ff;
+}
+.estaFiltrados .linhaF{
+  margin: 15px 0;
+  border-radius: 25px;
+}
+.filtro .estaFiltrados{
+  margin-top: 40px;
+}
+.filtro .estaFiltrados iframe{
+  height: 500px;
+  width: 100%;
+  border: 0;
+}
+/*FIM PG_VITRINE*/
